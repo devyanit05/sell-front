@@ -1,0 +1,12 @@
+.main_container {
+    margin-top: 70px;
+}
+
+.all_cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.single_card {
+    margin: 5px;
+}

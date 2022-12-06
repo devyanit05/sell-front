@@ -1,0 +1,45 @@
+.card_main {
+    flex: 1;
+    margin-right: 3px;
+    height: 40vh;
+    position: relative;
+    width: 40vh;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cat_div {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+
+.btn_details {
+    font-weight: bolder;
+    border: 1px solid gray;
+    background-color: thistle;
+    opacity: 0.75;
+}
